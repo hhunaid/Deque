@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		201DC8731FC4B89200F042DA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 201DC8721FC4B89200F042DA /* main.cpp */; };
+		201DC87B1FC4B8CA00F042DA /* Deque.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 201DC8791FC4B8CA00F042DA /* Deque.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		201DC86F1FC4B89200F042DA /* Deque */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Deque; sourceTree = BUILT_PRODUCTS_DIR; };
 		201DC8721FC4B89200F042DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		201DC8791FC4B8CA00F042DA /* Deque.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Deque.cpp; sourceTree = "<group>"; };
+		201DC87A1FC4B8CA00F042DA /* Deque.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deque.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				201DC8721FC4B89200F042DA /* main.cpp */,
+				201DC8791FC4B8CA00F042DA /* Deque.cpp */,
+				201DC87A1FC4B8CA00F042DA /* Deque.h */,
 			);
 			path = Deque;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201DC87B1FC4B8CA00F042DA /* Deque.cpp in Sources */,
 				201DC8731FC4B89200F042DA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
